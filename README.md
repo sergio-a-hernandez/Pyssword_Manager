@@ -20,7 +20,7 @@ pyssword_manager/
 │
 ├── crypto.py              # Encryption and key derivation functions
 ├── database.py            # SQLite database operations
-├── password\_generator.py  # Secure password generator
+├── password_generator.py  # Secure password generator
 ├── main.py                # Main GUI using tkinter
 ├── requirements.txt       # Project dependencies
 ├── salt.bin               # Persistent salt for key derivation
