@@ -16,7 +16,7 @@ This is a simple password manager built with Python and a graphical user interfa
 ## 📁 Project Structure
 
 ```
-pyssword\_manager/
+pyssword_manager/
 │
 ├── crypto.py              # Encryption and key derivation functions
 ├── database.py            # SQLite database operations
