@@ -18,13 +18,15 @@ This is a simple password manager built with Python and a graphical user interfa
 ```
 pyssword_manager/
 │
-├── crypto.py              # Encryption and key derivation functions
-├── database.py            # SQLite database operations
-├── password_generator.py  # Secure password generator
-├── main.py                # Main GUI using tkinter
-├── requirements.txt       # Project dependencies
-├── salt.bin               # Persistent salt for key derivation
-└── passwords.db           # Local database (auto-generated)
+├── crypto.py              # Handles encryption, decryption, and key derivation
+├── database.py            # Manages SQLite operations (insert, retrieve, delete)
+├── password_generator.py  # Provides secure password generation logic
+├── gui.py                 # GUI logic separated from main execution (Tkinter)
+├── app.py                 # Application controller linking GUI, crypto, and DB
+├── main.py                # Entry point: launches the application
+├── requirements.txt       # Python dependencies for the project
+├── salt.bin               # Persistent salt used for cryptographic key derivation
+└── passwords.db           # Auto-generated encrypted local database
 
 ````
 
